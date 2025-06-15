@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>O Meu Amor por Você</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 700px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .mensagem {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .imagem {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-bottom: 25px;
+    }
+
+    button {
+      background-color: #ffffff;
+      color: #d1006b;
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #ffe0ed;
+    }
+
+    #resposta {
+      margin-top: 20px;
+      font-size: 1.3em;
+      font-style: italic;
+      color: #fff5f5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>O Meu Amor por Você 💕</h1>
+    <p class="mensagem">
+      Meu amor,
+      Quero agradecer do fundo do meu coração por me teres perdoado. Sei que não foi fácil, e valorizo imenso a tua coragem e a tua confiança em nós. Cada segundo contigo vale mais do que mil palavras, e a tua compreensão faz-me sentir a pessoa mais sortuda do mundo. Prometo cuidar do nosso amor com todo o carinho e nunca mais deixar que algo nos afaste. Obrigado por seres a luz que ilumina os meus dias.
+
+Amo-te, hoje e sempre.
+
+
+    </p>
+
+    <img src="amor3.png" alt="Nós dois juntos" class="imagem">
+
+    <br/>
+
+    <button onclick="mostrarAmor()">Meu juramento 💖</button>
+    <p id="resposta"></p>
+  </div>
+
+  <script>
+    function mostrarAmor() {
+      document.getElementById('resposta').textContent = "Você é o amor da minha vida. Prometo estar sempre ao seu lado nos bons e maus momentos. 💖";
+    }
+  </script>
+
+</body>
+</html>
